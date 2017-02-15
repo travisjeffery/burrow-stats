@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "KmjnydoAbofMieIWm+it5OWERaM=",
+			"path": "github.com/alecthomas/template",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
+			"checksumSHA1": "3wt0pTXXeS+S93unwhGoLIyGX/Q=",
+			"path": "github.com/alecthomas/template/parse",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
+			"checksumSHA1": "fCc3grA7vIxfBru7R3SqjcW+oLI=",
+			"path": "github.com/alecthomas/units",
+			"revision": "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a",
+			"revisionTime": "2015-10-22T06:55:26Z"
+		},
+		{
+			"checksumSHA1": "ynJSWoF6v+3zMnh9R0QmmG6iGV8=",
+			"path": "github.com/pkg/errors",
+			"revision": "248dadf4e9068a0b3e79f02ed0a610d935de5302",
+			"revisionTime": "2016-10-29T09:36:37Z"
+		},
+		{
+			"checksumSHA1": "Opg5ihMhafgqLXQT0MqyWv5ZE3E=",
+			"path": "github.com/quipo/statsd",
+			"revision": "75b7afedf0d2810e897fd5a010dbf896b20f535d",
+			"revisionTime": "2016-09-23T16:06:12Z"
+		},
+		{
+			"checksumSHA1": "08QvqIFShxjHn3mTWwXVCq+aqY8=",
+			"path": "github.com/quipo/statsd/event",
+			"revision": "75b7afedf0d2810e897fd5a010dbf896b20f535d",
+			"revisionTime": "2016-09-23T16:06:12Z"
+		},
+		{
+			"checksumSHA1": "I/qJA4jHp5Tz4huZJrxHYO+QY5c=",
+			"path": "github.com/segmentio/go-burrow",
+			"revision": "b83dd430a1cc948f5048786597592927062c6c07",
+			"revisionTime": "2017-01-13T00:03:16Z"
+		},
+		{
+			"checksumSHA1": "t1cla+OlP0NpAWUjx/SPYAR2m3k=",
+			"path": "github.com/tj/go-gracefully",
+			"revision": "005c1d102f1bf3158f9ba29c12d68a73ac15f321",
+			"revisionTime": "2014-12-27T06:10:38Z"
+		},
+		{
+			"checksumSHA1": "SeYI7DRWrd0Ku+CLavuwIz3EEmQ=",
+			"path": "gopkg.in/alecthomas/kingpin.v2",
+			"revision": "e9044be3ab2a8e11d4e1f418d12f0790d57e8d70",
+			"revisionTime": "2016-08-29T10:30:05Z"
+		}
+	],
+	"rootPath": "github.com/travisjeffery/burrow-stats"
+}
