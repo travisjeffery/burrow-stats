@@ -71,7 +71,7 @@ func (p *Poller) fetch() error {
 			p.stats.Gauge(fmt.Sprintf("consumer.lag,cluster=%s,consumer_group=%s,topic=%s", lag.Cluster, lag.Group, lag.MaxLag.Topic), int64(lag.TotalLag))
 
 			for _, partition := range lag.Partitions {
-				p.stats.Gauge(fmt.Sprintf("consumer.lag,cluster=%s,consumer_group=%s,topic=%s,partition=%d", lag.Cluster, lag.Group, partition.Topic, partition.Partition), int64(partition.Start.Lag))
+				p.stats.Gauge(fmt.Sprintf("consumer.partition.lag,cluster=%s,consumer_group=%s,topic=%s,partition=%d", lag.Cluster, lag.Group, partition.Topic, partition.Partition), int64(partition.Start.Lag))
 			}
 
 			p.logger.Printf("[INFO] lag: %v", lag)
